@@ -19,6 +19,11 @@
   color: #5d4e44 !important;
 }
 
+.nav__container {
+  max-width: 71.25rem;
+  margin: 0 auto;
+}
+
 .nav__logo {
   display: inline-block;
   font-weight: 700;

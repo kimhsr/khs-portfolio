@@ -3,9 +3,11 @@ import React from "react";
 import "./Banner.css";
 
 function Banner() {
-  return <div>
-    <div className="bannerColor"></div>
-  </div>;
+  return (
+    <div className="bannerColor">
+      <div></div>
+    </div>
+  );
 }
 
 export default Banner;

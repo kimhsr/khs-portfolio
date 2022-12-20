@@ -20,15 +20,20 @@ function Nav() {
 
   return (
     <div className={`nav ${show && "nav__white"}`}>
-      <div className={`nav__logo ${show && "nav__black"}`} onClick={() => window.location.reload()}>
-        KHS's Portfolio
-      </div>
-      <div className="nav__menus">
-        <div className={`nav__menu ${show && "nav__black"}`}>About me</div>
-        <div className={`nav__menu ${show && "nav__black"}`}>Skills</div>
-        <div className={`nav__menu ${show && "nav__black"}`}>Archiving</div>
-        <div className={`nav__menu ${show && "nav__black"}`}>Projects</div>
-        {/* <div className="nav__menu">Career</div> */}
+      <div className="nav__container">
+        <div
+          className={`nav__logo ${show && "nav__black"}`}
+          onClick={() => window.location.reload()}
+        >
+          KHS's Portfolio
+        </div>
+        <div className="nav__menus">
+          <div className={`nav__menu ${show && "nav__black"}`}>About me</div>
+          <div className={`nav__menu ${show && "nav__black"}`}>Skills</div>
+          <div className={`nav__menu ${show && "nav__black"}`}>Archiving</div>
+          <div className={`nav__menu ${show && "nav__black"}`}>Projects</div>
+          {/* <div className="nav__menu">Career</div> */}
+        </div>
       </div>
     </div>
   );
