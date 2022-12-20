@@ -1,10 +1,10 @@
-.bannerImg {
+.bannerColor {
+  background-color: #5d4e44;
   position: fixed;
   top: 0;
   right: 0;
   left: 0;
-  background-color: transparent;
   width: 100%;
-  max-width: 69.25rem;
+  height: 600px;
   margin: 0 auto;
 }

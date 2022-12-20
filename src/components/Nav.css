@@ -6,7 +6,6 @@
   background-color: transparent;
   z-index: 10;
   width: 100%;
-  max-width: 69.25rem;
   padding: 1.25rem 2rem;
   margin: 0 auto;
   transition: all 0.5s;
@@ -17,7 +16,7 @@
 }
 
 .nav__black {
-  color: #111 !important;
+  color: #5d4e44 !important;
 }
 
 .nav__logo {
