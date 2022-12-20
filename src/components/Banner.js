@@ -4,7 +4,7 @@ import "./Banner.css";
 
 function Banner() {
   return (
-    <div className="bannerColor">
+    <div className="bannerContainer">
       <div></div>
     </div>
   );
