@@ -1,0 +1,10 @@
+.bannerImg {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: transparent;
+  width: 100%;
+  max-width: 69.25rem;
+  margin: 0 auto;
+}

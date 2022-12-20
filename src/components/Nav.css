@@ -1,0 +1,52 @@
+.nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: transparent;
+  z-index: 10;
+  width: 100%;
+  max-width: 69.25rem;
+  padding: 1.25rem 2rem;
+  margin: 0 auto;
+  transition: all 0.5s;
+}
+
+.nav__white {
+  background-color: #fff;
+}
+
+.nav__black {
+  color: #111 !important;
+}
+
+.nav__logo {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: hsla(0, 0%, 100%, 0.7);
+  line-height: 2rem;
+  cursor: pointer;
+}
+
+.nav__logo:hover {
+  color: white;
+}
+
+.nav__menus {
+  float: right;
+}
+
+.nav__menu {
+  display: inline-block;
+  padding: 0 1rem;
+  font-weight: 700;
+  font-size: 1rem;
+  color: hsla(0, 0%, 100%, 0.7);
+  line-height: 2rem;
+  cursor: pointer;
+}
+
+.nav__menu:hover {
+  color: white;
+}
