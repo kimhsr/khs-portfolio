@@ -1,5 +1,19 @@
-.bannerContainer {
-  background-color: #5d4e44;
+.bannerBackground {
+  background: linear-gradient(#857061, #5d4e44);
   width: 100%;
   height: 600px;
+}
+
+.bannerContainer {
+  max-width: 71.25rem;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  top: 135px;
+}
+
+.bannerText {
+  font-family: "BlackHanSans-Regular";
+  font-size: 4rem;
+  color: #fff;
 }

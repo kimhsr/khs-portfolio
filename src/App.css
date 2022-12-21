@@ -1,11 +1,16 @@
 @font-face {
-  font-family: "gangwon";
-  src: url("./fonts/gangwon.otf");
+  font-family: "SpoqaHanSansNeo-Bold";
+  src: url("./fonts/SpoqaHanSansNeo-Bold.otf");
+}
+
+@font-face {
+  font-family: "BlackHanSans-Regular";
+  src: url("./fonts/BlackHanSans-Regular.ttf");
 }
 
 body {
   margin: 0;
-  font-family: "gangwon";
+  font-family: "SpoqaHanSansNeo-Bold";
   line-height: normal;
   width: 100%;
 }
