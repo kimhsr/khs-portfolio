@@ -1,7 +1,7 @@
 .bannerBackground {
   background: linear-gradient(#857061, #5d4e44);
   width: 100%;
-  height: 600px;
+  height: 595px;
 }
 
 .bannerContainer {
@@ -16,4 +16,36 @@
   font-family: "BlackHanSans-Regular";
   font-size: 4rem;
   color: #fff;
+}
+
+.bannerHr {
+  width: 3.25rem;
+  margin: 1.5rem auto;
+  border: none;
+  border-top: 0.2rem solid #f4623a;
+}
+
+.bannerTextBottom {
+  font-family: "SpoqaHanSansNeo-Bold";
+  font-size: 1.25rem;
+  color: hsla(0, 0%, 100%, 0.75);
+  line-height: 1.5;
+}
+
+.bannerButton {
+  font-family: "SpoqaHanSansNeo";
+  display: inline-block;
+  margin-top: 30px;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 10rem;
+  background-color: #f4623a;
+  text-decoration: none;
+  color: #fff;
+  line-height: 1.5;
+  cursor: pointer;
+}
+
+.bannerButton:hover {
+  background-color: #f24516;
 }
