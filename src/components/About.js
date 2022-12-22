@@ -5,7 +5,9 @@ function About() {
   return (
     <div id="aboutScroll">
       <div className="aboutBackground">
-        About
+        <div className="aboutContainer">
+          <div className="aboutText">ABOUT ME</div>
+        </div>
       </div>
     </div>
   );
