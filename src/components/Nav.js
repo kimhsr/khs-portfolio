@@ -3,6 +3,7 @@ import React, { useEffect, useRef, useState } from "react";
 import "./Nav.css";
 import { FaBars } from "react-icons/fa";
 import { links } from "./data";
+import { Link } from "react-scroll";
 
 function Nav() {
   const [show, setShow] = useState(false);
@@ -53,14 +54,26 @@ function Nav() {
         <div className="links__container" ref={linksContainerRef}>
           <ul className="links" ref={linksRef}>
             {/* data에서 Nav목록 가져오기 */}
-            {links.map((link) => {
+            {/* {links.map((link) => {
               const { id, url, text } = link;
               return (
                 <li key={id}>
                   <a href={url}>{text}</a>
                 </li>
               );
-            })}
+            })} */}
+            <Link to="aboutScroll" spy={true} smooth={true} offset={-75}>
+              <div className="links">About me</div>
+            </Link>
+            <Link to="skillsScroll" spy={true} smooth={true} offset={-75}>
+              <div className="links">Skills</div>
+            </Link>
+            <Link to="archivingScroll" spy={true} smooth={true} offset={-75}>
+              <div className="links">Archiving</div>
+            </Link>
+            <Link to="projectsScroll" spy={true} smooth={true} offset={-75}>
+              <div className="links">Projects</div>
+            </Link>
           </ul>
         </div>
       </div>

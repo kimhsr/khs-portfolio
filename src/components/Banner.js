@@ -22,7 +22,7 @@ function Banner() {
           그리고 함께하는 팀의 성장을 도울 수 있는 개발자가 되기 위해 노력하고
           있습니다.
         </div>
-        <Link to="aboutScroll" spy={true} smooth={true} offset={-64}>
+        <Link to="aboutScroll" spy={true} smooth={true} offset={-75}>
           <div className="bannerButton">더 알아보기 ↓</div>
         </Link>
       </div>
