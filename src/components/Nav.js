@@ -37,14 +37,13 @@ function Nav() {
 
   return (
     <nav className={`nav ${show && "nav__white"}`}>
-      <div className="nav__center">
+      <div className="nav__center" id="logoScroll">
         <div className="nav__header">
-          <div
-            className={`nav__logo ${show && "nav__black"}`}
-            onClick={() => window.location.reload()}
-          >
-            KHS's Portfolio
-          </div>
+          <Link to="logoScroll" spy={true} smooth={true} offset={-10000}>
+            <div className={`nav__logo ${show && "nav__black"}`}>
+              KHS's Portfolio
+            </div>
+          </Link>
           <button className="nav__toggle" onClick={toggleLinks}>
             <FaBars />
           </button>
