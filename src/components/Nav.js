@@ -2,7 +2,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import "./Nav.css";
 import { FaBars } from "react-icons/fa";
-import { links } from "./data";
 import { Link } from "react-scroll";
 
 function Nav() {
