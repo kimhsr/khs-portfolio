@@ -26,7 +26,7 @@
 }
 
 .bannerTextBottom {
-  font-family: "SpoqaHanSansNeo-Bold";
+  font-family: "SpoqaHanSansNeo";
   font-size: 1.25rem;
   color: hsla(0, 0%, 100%, 0.75);
   line-height: 1.5;
@@ -48,4 +48,26 @@
 
 .bannerButton:hover {
   background-color: #f24516;
+}
+
+@media screen and (max-width: 992px) {
+  .bannerBackground {
+    height: 520px;
+  }
+  .bannerText {
+    font-size: 3rem;
+  }
+  .bannerTextBottom {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .bannerBackground {
+    height: 550px;
+    padding: 32px;
+  }
+  .bannerTextBottom {
+    font-size: 1rem;
+  }
 }

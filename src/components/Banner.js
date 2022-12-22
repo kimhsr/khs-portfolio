@@ -9,7 +9,7 @@ function Banner() {
         <div className="bannerText">
           - 김현성 -
           <br />
-          프론트엔드 개발자 포트폴리오
+          웹 개발자 포트폴리오
         </div>
         <hr className="bannerHr"/>
         <div className="bannerTextBottom">

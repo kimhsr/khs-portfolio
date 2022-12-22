@@ -1,4 +1,4 @@
-.nav {
+/* .nav {
   position: fixed;
   z-index: 10;
   width: 100%;
@@ -52,4 +52,201 @@
 
 .nav__menu:hover {
   color: white;
+}
+
+.toggle__container {
+  display: flex;
+}
+
+.nav__toggle {
+  display: inline-block;
+  padding: 0 1rem;
+  font-weight: 700;
+  font-size: 1.7rem;
+  color: hsla(0, 0%, 100%, 0.7);
+  line-height: 2rem;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.nav__toggle:hover {
+  transform: rotate(90deg);
+}
+
+.links a {
+  color: var(--clr-grey-3);
+  font-size: 1rem;
+  text-transform: capitalize;
+  letter-spacing: var(--spacing);
+  display: block;
+  padding: 0.5rem 1rem;
+  transition: var(--transition);
+}
+
+.links a:hover {
+  background: var(--clr-primary-8);
+  color: var(--clr-primary-5);
+  padding-left: 1.5rem;
+}
+
+.links-container {
+  height: 0;
+  overflow: hidden;
+  transition: var(--transition);
+}
+
+@media screen and (max-width: 992px) {
+  .nav__menus {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 993px) {
+  .toggle__container {
+  }
+  .nav__toggle {
+    display: none;
+  } */
+/* 사이즈 변경위해 꼭 필요 */
+/* .links-container {
+    height: auto !important;
+  }
+
+  .links {
+    display: flex;
+  }
+  .links a {
+    padding: 0;
+    margin: 0 0.5rem;
+  }
+  .links a:hover {
+    padding: 0;
+    background: transparent;
+  }
+} */
+nav {
+  background: var(--clr-white);
+  box-shadow: var(--light-shadow);
+}
+
+ul {
+  list-style: none;
+}
+
+.nav {
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+}
+
+.nav__white {
+  background-color: #fff;
+}
+
+.nav__black {
+  color: #5d4e44 !important;
+}
+
+.nav__black:hover {
+  color: #f4623a !important;
+}
+
+.nav__white {
+  background-color: #fff;
+}
+
+.nav__black {
+  color: #5d4e44 !important;
+}
+
+.nav__black:hover {
+  color: #f4623a !important;
+}
+
+.nav {
+  z-index: 1000;
+  width: 100%;
+}
+
+.nav__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.nav__logo {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #5d4e44;
+  line-height: 2rem;
+  cursor: pointer;
+}
+
+.nav__logo:hover {
+  color: #f4623a;
+}
+.nav__toggle {
+  font-size: 1.5rem;
+  color: #5d4e44;
+  background: transparent;
+  border-color: transparent;
+  transition: var(--transition);
+  cursor: pointer;
+}
+.nav__toggle:hover {
+  transform: rotate(90deg);
+}
+
+.links a {
+  color: #5d4e44;
+  font-size: 1rem;
+  font-family: "SpoqaHanSansNeo-Bold";
+  display: block;
+  padding: 0.5rem 1rem;
+  transition: var(--transition);
+}
+.links a:hover {
+  color: #f4623a;
+  padding-left: 1.5rem;
+}
+.links__container {
+  height: 0;
+  overflow: hidden;
+  transition: var(--transition);
+}
+
+@media screen and (min-width: 800px) {
+  .nav__center {
+    max-width: 71.25rem;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+  .nav__header {
+    padding: 0;
+  }
+  .nav__toggle {
+    display: none;
+  }
+
+  /* 사이즈 변경위해 꼭 필요 */
+  .links__container {
+    height: auto !important;
+  }
+
+  .links {
+    display: flex;
+  }
+  .links a {
+    padding: 0;
+    margin: 0 0.5rem;
+  }
+  .links a:hover {
+    padding: 0;
+    background: transparent;
+  }
 }
