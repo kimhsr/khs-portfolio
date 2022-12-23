@@ -30,6 +30,7 @@
   font-size: 1.25rem;
   color: hsla(0, 0%, 100%, 0.75);
   line-height: 1.5;
+  transform: rotate(0.03deg);
 }
 
 .bannerButton {

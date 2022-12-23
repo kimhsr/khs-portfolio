@@ -40,6 +40,7 @@
   font-family: "SpoqaHanSansNeo-Bold";
   color: black;
   font-size: 1.2rem;
+  transform: rotate(0.03deg);
 }
 
 .aboutName {
@@ -48,6 +49,7 @@
   font-family: "Noto Sans KR";
   color: black;
   font-weight: 500;
+  transform: rotate(0.03deg);
 }
 
 @media screen and (max-width: 803px) {
