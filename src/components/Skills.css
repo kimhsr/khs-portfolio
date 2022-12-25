@@ -39,7 +39,7 @@
   background-color: white;
   border-radius: 1rem;
   box-shadow: 1rem 1rem 1rem 0 rgb(68 68 68 / 20%);
-  transition: all 0.3s;
+  transition: all 0.1s;
 }
 
 .skillsback:hover {
