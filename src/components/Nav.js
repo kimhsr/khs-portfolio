@@ -41,10 +41,10 @@ function Nav() {
         <div className="nav__header">
           <Link to="logoScroll" spy={true} smooth={true} offset={-10000}>
             <div className={`nav__logo ${show && "nav__black"}`}>
-              KHS's Portfolio
+              KHS&apos;s Portfolio
             </div>
           </Link>
-          <button className="nav__toggle" onClick={toggleLinks}>
+          <button type="button" className="nav__toggle" onClick={toggleLinks}>
             <FaBars />
           </button>
         </div>

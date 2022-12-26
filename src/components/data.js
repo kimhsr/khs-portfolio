@@ -1,4 +1,4 @@
-export const links = [
+const links = [
   {
     id: 1,
     url: "/About",
@@ -20,3 +20,5 @@ export const links = [
     text: "Projects",
   },
 ];
+
+export default links;
