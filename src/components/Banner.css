@@ -26,7 +26,7 @@
 }
 
 .bannerTextBottom {
-  font-family: "SpoqaHanSansNeo";
+  font-family: "NotoSansKR-Regular";
   font-size: 1.25rem;
   color: hsla(0, 0%, 100%, 0.75);
   line-height: 1.5;
@@ -34,7 +34,7 @@
 }
 
 .bannerButton {
-  font-family: "SpoqaHanSansNeo";
+  font-family: "NotoSansKR-Regular";
   display: inline-block;
   margin-top: 30px;
   padding: 1rem 2rem;

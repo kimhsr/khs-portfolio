@@ -8,6 +8,11 @@
   src: url("./fonts/BlackHanSans-Regular.ttf");
 }
 
+@font-face {
+  font-family: "NotoSansKR-Regular";
+  src: url("./fonts/NotoSansKR-Regular.otf");
+}
+
 /* body {
   margin: 0;
   font-family: "SpoqaHanSansNeo-Bold";
