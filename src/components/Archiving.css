@@ -1,5 +1,79 @@
 .archivingBackground {
   background-color: #222222;
   width: 100%;
-  height: 580px;
+  height: 560px;
+}
+
+.archivingTitle {
+  max-width: 71.25rem;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  top: 70px;
+  width: 277px;
+}
+
+.archivingText {
+  font-family: "BlackHanSans-Regular";
+  font-size: 3rem;
+  color: white;
+  border-bottom: 1px solid #6c757d;
+}
+
+.archivingContainer {
+  max-width: 57rem;
+  top: 120px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+}
+
+.archivingback {
+  position: relative;
+  margin: auto;
+  width: 25rem;
+  height: 280px;
+  background-color: #f5f5f5;
+  border-radius: 1rem;
+  font-family: "Noto Sans KR";
+  transition: all 0.1s;
+}
+
+.archivingback:hover {
+  transform: translateY(5px);
+}
+
+.archivingImg {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  width: 200px;
+}
+
+.archivingUrl {
+  position: absolute;
+  top: 85px;
+  left: 30px;
+  margin-bottom: 1rem;
+  color: #258ddb;
+}
+
+.archivingDescription {
+  transform: rotate(0.03deg);
+}
+
+.archivingDescription p {
+  color: #444444;
+  position: absolute;
+  top: 125px;
+  left: 30px;
+}
+
+.archivingDescription ul {
+  position: absolute;
+  top: 160px;
+  left: 45px;
+  list-style-type: disc;
+  text-align: left;
+  line-height: 2rem;
 }

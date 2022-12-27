@@ -39,7 +39,7 @@ function About() {
               <img alt="pencil" src="img/pencil-fill.svg" />
               <div className="aboutTitle">학력</div>
               <div className="aboutName">
-                상명대학교(천안)
+                상명대학교 천안
                 <br />
                 (소프트웨어학과)
               </div>
