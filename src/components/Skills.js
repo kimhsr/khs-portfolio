@@ -25,10 +25,10 @@ function Skills() {
             <div className="skillsContent">Communication</div>
             <img alt="" />
           </div>
-          <div className="skillsback">
+          {/* <div className="skillsback">
             <div className="skillsContent">Certificate</div>
             <img alt="" />
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
