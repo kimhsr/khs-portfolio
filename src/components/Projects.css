@@ -1,3 +1,10 @@
+.tlqkf {
+  width: 100%;
+  max-width: 71.25rem;
+  padding: 0rem 2rem;
+  margin: 0 auto;
+}
+
 .projectsBackground {
   background-color: #1d809f;
   width: 100%;
@@ -22,9 +29,8 @@
 
 .projectsContainer {
   position: relative;
-  margin: auto;
   top: 120px;
-  max-width: 71.25rem;
+  display: block;
   background-color: white;
   border-radius: 1rem;
   box-shadow: 1rem 1rem 1rem 0 rgb(68 68 68 / 20%);
@@ -50,14 +56,20 @@
 }
 
 .projectsImgNet {
-  width: 475px;
+  display: block;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .content {
+  position: relative;
+  max-width: 100%;
   font-family: "NotoSansKR-Regular";
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  grid-gap: 30px;
   transform: rotate(0.03deg);
+  margin: 0 auto;
 }
 
 .contentMain {
@@ -102,4 +114,49 @@ a:link {
 
 a:visited {
   color: #258de0;
+}
+
+@media screen and (max-width: 1200px) {
+  /* .projectsContainer {
+    max-width: 61.25rem;
+  }
+  .projectsImgNet {
+    width: 400px;
+  } */
+}
+
+@media screen and (max-width: 1060px) {
+  /* .projectsContainer {
+    max-width: 51.25rem;
+  }
+  .projectsImgNet {
+    width: 400px;
+  } */
+  /* .content {
+    grid-template-columns: repeat(auto-fill, minmax(2fr, 1fr));
+  } */
+}
+
+@media screen and (max-width: 890px) {
+  /* .projectsContainer {
+    max-width: 41.25rem;
+  }
+  .projectsImgNet {
+    width: 550px;
+  } */
+}
+
+@media screen and (max-width: 721px) {
+  /* .projectsContainer {
+    max-width: 31.25rem;
+  } */
+}
+
+@media screen and (max-width: 524px) {
+  /* .projectsContainer {
+    max-width: 25rem;
+  }
+  .projectsContent {
+    font-size: 2rem;
+  } */
 }

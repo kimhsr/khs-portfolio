@@ -4,8 +4,14 @@
   height: 1080px;
 }
 
-.skillsTitle {
+.skillsPadding {
+  width: 100%;
   max-width: 71.25rem;
+  padding: 0rem 2rem;
+  margin: 0 auto;
+}
+
+.skillsTitle {
   margin: 0 auto;
   text-align: center;
   position: relative;
@@ -21,13 +27,13 @@
 }
 
 .skillsContainer {
-  max-width: 57rem;
+  max-width: 97%;
   top: 120px;
-  margin: 0 auto;
+  margin: auto;
   text-align: center;
   position: relative;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(229px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(305px, 1fr));
   grid-gap: 50px;
 }
 
@@ -70,6 +76,12 @@
 @media screen and (max-width: 803px) {
   .skillsBackground {
     height: 1060px;
+  }
+}
+
+@media screen and (max-width: 761px) {
+  .skillsBackground {
+    height: 1630px;
   }
 }
 
