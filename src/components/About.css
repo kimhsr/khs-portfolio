@@ -53,3 +53,15 @@
   font-weight: 500;
   transform: rotate(0.03deg);
 }
+
+@media screen and (max-width: 280px) {
+  .aboutContainer {
+    width: 174px;
+  }
+  .aboutText {
+    font-size: 2rem;
+  }
+  .aboutContent {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  }
+}

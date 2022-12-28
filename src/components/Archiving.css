@@ -84,7 +84,7 @@
 
 @media screen and (max-width: 576px) {
   .archivingback {
-    width: 22rem;
+    width: 21.8rem;
   }
 }
 
@@ -115,5 +115,18 @@
 @media screen and (max-width: 360px) {
   .archivingback {
     width: 18.5rem;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .archivingTitle {
+    width: 186px;
+  }
+  .archivingText {
+    font-size: 2rem;
+  }
+  .archivingback {
+    width: 13rem;
+    height: 370px;
   }
 }

@@ -75,3 +75,9 @@
     font-size: 1rem;
   }
 }
+
+@media screen and (max-width: 280px) {
+  .bannerText {
+    font-size: 3rem;
+  }
+}

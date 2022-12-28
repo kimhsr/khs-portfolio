@@ -173,3 +173,24 @@ a:visited {
     grid-template-columns: repeat(auto-fill, minmax(249px, 1fr));
   }
 }
+
+@media screen and (max-width: 280px) {
+  .projectsTitle {
+    width: 165px;
+  }
+  .projectsText {
+    font-size: 2rem;
+  }
+  .projectsContent {
+    font-size: 1.7rem;
+  }
+  .projectsDate {
+    font-size: 0.9rem;
+  }
+  .projectsContainer {
+    padding: 1.5rem;
+  }
+  .content {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  }
+}
