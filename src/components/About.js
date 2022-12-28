@@ -5,10 +5,10 @@ function About() {
   return (
     <div id="aboutScroll">
       <div className="aboutBackground">
-        <div className="aboutContainer">
-          <div className="aboutText">ABOUT ME</div>
-        </div>
-        <div className="aboutMain">
+        <div className="aboutPadding">
+          <div className="aboutContainer">
+            <div className="aboutText">ABOUT ME</div>
+          </div>
           <div className="aboutContent">
             <div className="about">
               <img alt="person" src="img/person-fill.svg" />
