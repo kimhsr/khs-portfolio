@@ -25,7 +25,6 @@
   margin: auto;
   top: 120px;
   max-width: 71.25rem;
-  height: 500px;
   background-color: white;
   border-radius: 1rem;
   box-shadow: 1rem 1rem 1rem 0 rgb(68 68 68 / 20%);
@@ -59,4 +58,48 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   transform: rotate(0.03deg);
+}
+
+.contentMain {
+  padding-bottom: 4.5rem;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.contentButton {
+  position: absolute;
+  padding: 0.5rem 1rem;
+  background-color: #222;
+  border-radius: 0.25rem;
+  color: #fff;
+  margin: 0;
+}
+
+.contentButton:hover {
+  background-color: #444444;
+}
+
+.projectsDescription {
+  margin-bottom: 1.8rem;
+}
+
+.projectsDeTitle {
+  display: inline-block;
+  vertical-align: top;
+  width: 8.4rem;
+  font-weight: 900;
+  font-size: 1.1rem;
+}
+
+.projectsDeContent {
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+a:link {
+  color: #258de0;
+}
+
+a:visited {
+  color: #258de0;
 }
