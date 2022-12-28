@@ -5,7 +5,7 @@ function Projects() {
   return (
     <div id="projectsScroll">
       <div className="projectsBackground">
-        <div className="tlqkf">
+        <div className="projectsPadding">
           <div className="projectsTitle">
             <div className="projectsText">PROJECTS</div>
           </div>
