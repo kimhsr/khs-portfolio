@@ -17,7 +17,7 @@ function Projects() {
             <div className="content">
               <img
                 alt="netflix"
-                src="img/netflix.png"
+                src={`${process.env.PUBLIC_URL}/img/netflix.png`}
                 className="projectsImgNet"
               />
               <div className="contentMainBack">

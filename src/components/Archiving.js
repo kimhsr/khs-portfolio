@@ -13,7 +13,7 @@ function Archiving() {
             <div className="archivingback">
               <img
                 alt="archivingImg"
-                src="img/git-hub-archiving.png"
+                src={`${process.env.PUBLIC_URL}/img/git-hub-archiving.png`}
                 className="archivingImg"
               />
               <a

@@ -11,32 +11,50 @@ function About() {
           </div>
           <div className="aboutContent">
             <div className="about">
-              <img alt="person" src="img/person-fill.svg" />
+              <img
+                alt="person"
+                src={`${process.env.PUBLIC_URL}/img/person-fill.svg`}
+              />
               <div className="aboutTitle">이름</div>
               <div className="aboutName">김현성</div>
             </div>
             <div className="about">
-              <img alt="calendar" src="img/calendar-fill.svg" />
+              <img
+                alt="calendar"
+                src={`${process.env.PUBLIC_URL}/img/calendar-fill.svg`}
+              />
               <div className="aboutTitle">생년월일</div>
               <div className="aboutName">95.12.11</div>
             </div>
             <div className="about">
-              <img alt="geo-alt" src="img/geo-alt-fill.svg" />
+              <img
+                alt="geo-alt"
+                src={`${process.env.PUBLIC_URL}/img/geo-alt-fill.svg`}
+              />
               <div className="aboutTitle">주소지</div>
               <div className="aboutName">경기도 고양시</div>
             </div>
             <div className="about">
-              <img alt="telephone" src="img/telephone-fill.svg" />
+              <img
+                alt="telephone"
+                src={`${process.env.PUBLIC_URL}/img/telephone-fill.svg`}
+              />
               <div className="aboutTitle">연락처</div>
               <div className="aboutName">010-9717-7671</div>
             </div>
             <div className="about">
-              <img alt="envelope" src="img/envelope-fill.svg" />
+              <img
+                alt="envelope"
+                src={`${process.env.PUBLIC_URL}/img/envelope-fill.svg`}
+              />
               <div className="aboutTitle">이메일</div>
               <div className="aboutName">kimhsr@naver.com</div>
             </div>
             <div className="about">
-              <img alt="pencil" src="img/pencil-fill.svg" />
+              <img
+                alt="pencil"
+                src={`${process.env.PUBLIC_URL}/img/pencil-fill.svg`}
+              />
               <div className="aboutTitle">학력</div>
               <div className="aboutName">
                 상명대학교 천안

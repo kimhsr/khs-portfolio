@@ -12,15 +12,24 @@ function Skills() {
           <div className="skillsContainer">
             <div className="skillsback">
               <div className="skillsContent">Frontend</div>
-              <img alt="front" src="img/front.png" />
+              <img
+                alt="front"
+                src={`${process.env.PUBLIC_URL}/img/front.png`}
+              />
             </div>
             <div className="skillsback">
               <div className="skillsContent">Deployment</div>
-              <img alt="deployment" src="img/deployment.png" />
+              <img
+                alt="deployment"
+                src={`${process.env.PUBLIC_URL}/img/deployment.png`}
+              />
             </div>
             <div className="skillsback">
               <div className="skillsContent">Version Control</div>
-              <img alt="version" src="img/version.png" />
+              <img
+                alt="version"
+                src={`${process.env.PUBLIC_URL}/img/version.png`}
+              />
             </div>
             {/* <div className="skillsback">
             <div className="skillsContent">Communication</div>
