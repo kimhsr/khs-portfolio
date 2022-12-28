@@ -123,3 +123,53 @@ a:visited {
     grid-template-columns: repeat(auto-fill, minmax(286px, 1fr));
   }
 }
+@media screen and (max-width: 393px) {
+  .projectsContent {
+    font-size: 1.9rem;
+  }
+  .projectsContainer {
+    padding: 1.4rem;
+  }
+  .content {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .projectsContent {
+    font-size: 1.9rem;
+  }
+  .projectsContainer {
+    padding: 1.4rem;
+  }
+  .content {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .projectsContent {
+    font-size: 1.7rem;
+  }
+  .projectsContainer {
+    padding: 1.5rem;
+  }
+  .content {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .projectsContent {
+    font-size: 1.7rem;
+  }
+  .projectsDate {
+    font-size: 0.9rem;
+  }
+  .projectsContainer {
+    padding: 1.5rem;
+  }
+  .content {
+    grid-template-columns: repeat(auto-fill, minmax(249px, 1fr));
+  }
+}

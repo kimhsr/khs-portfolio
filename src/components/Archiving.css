@@ -87,3 +87,33 @@
     width: 22rem;
   }
 }
+
+@media screen and (max-width: 412px) {
+  .archivingback {
+    width: 21.5rem;
+  }
+}
+
+@media screen and (max-width: 393px) {
+  .archivingback {
+    width: 20.5rem;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .archivingback {
+    width: 20rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .archivingback {
+    width: 19.5rem;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .archivingback {
+    width: 18.5rem;
+  }
+}
