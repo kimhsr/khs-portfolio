@@ -76,10 +76,25 @@
     width: 21rem;
   }
   .skillsback img {
-    width: 20rem;
+    width: 18rem;
   }
   .skillsContent {
-    width: 150px;
+    width: 280px;
+  }
+  .skillsContainer {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  }
+}
+
+@media screen and (max-width: 393px) {
+  .skillsback {
+    width: 20rem;
+  }
+  .skillsback img {
+    width: 18rem;
+  }
+  .skillsContent {
+    width: 280px;
   }
   .skillsContainer {
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
@@ -91,10 +106,10 @@
     width: 20rem;
   }
   .skillsback img {
-    width: 19rem;
+    width: 17rem;
   }
   .skillsContent {
-    width: 150px;
+    width: 270px;
   }
   .skillsContainer {
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
@@ -106,10 +121,10 @@
     width: 19rem;
   }
   .skillsback img {
-    width: 18rem;
+    width: 16rem;
   }
   .skillsContent {
-    width: 150px;
+    width: 260px;
   }
   .skillsContainer {
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
@@ -121,10 +136,10 @@
     width: 18rem;
   }
   .skillsback img {
-    width: 17rem;
+    width: 15rem;
   }
   .skillsContent {
-    width: 150px;
+    width: 250px;
   }
   .skillsContainer {
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
@@ -136,7 +151,7 @@
     width: 13rem;
   }
   .skillsback img {
-    width: 12rem;
+    width: 11rem;
   }
   .skillsContent {
     width: 150px;
