@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/khs-portfolio/static/css/main.60addbef.css",
+    "main.css": "/khs-portfolio/static/css/main.48ef1da8.css",
     "main.js": "/khs-portfolio/static/js/main.a2fc0b11.js",
     "static/js/787.2a8cc873.chunk.js": "/khs-portfolio/static/js/787.2a8cc873.chunk.js",
     "static/media/SpoqaHanSansNeo-Bold.otf": "/khs-portfolio/static/media/SpoqaHanSansNeo-Bold.577064393254c1a43de9.otf",
     "static/media/NotoSansKR-Regular.otf": "/khs-portfolio/static/media/NotoSansKR-Regular.e1aa54c04a18648e6468.otf",
     "static/media/BlackHanSans-Regular.ttf": "/khs-portfolio/static/media/BlackHanSans-Regular.f4f89062321390018f92.ttf",
     "index.html": "/khs-portfolio/index.html",
-    "main.60addbef.css.map": "/khs-portfolio/static/css/main.60addbef.css.map",
+    "main.48ef1da8.css.map": "/khs-portfolio/static/css/main.48ef1da8.css.map",
     "main.a2fc0b11.js.map": "/khs-portfolio/static/js/main.a2fc0b11.js.map",
     "787.2a8cc873.chunk.js.map": "/khs-portfolio/static/js/787.2a8cc873.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.60addbef.css",
+    "static/css/main.48ef1da8.css",
     "static/js/main.a2fc0b11.js"
   ]
 }
