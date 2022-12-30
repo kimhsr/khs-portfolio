@@ -37,12 +37,12 @@ ul {
   color: #5d4e44;
   background: transparent;
   border-color: transparent;
-  transition: var(--transition);
+  /* transition: var(--transition); */
   cursor: pointer;
 }
-.nav__toggle:hover {
+/* .nav__toggle:hover {
   transform: rotate(90deg);
-}
+} */
 
 .links {
   color: #444;
