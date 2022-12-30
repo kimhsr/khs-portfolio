@@ -9,4 +9,4 @@ https://kimhsr.github.io/khs-portfolio
 React.js, CSS
 
 # Overview
-<img width="80%" src="https://user-images.githubusercontent.com/97604805/210059167-d574bc43-7567-486d-910a-1460e493a86f.png"/>
+<img width="80%" src="https://user-images.githubusercontent.com/97604805/210061843-f6422ba9-b571-43e3-9ace-7b38769b9f49.png"/>
