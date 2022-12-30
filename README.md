@@ -3,7 +3,7 @@
 React를 사용하였으며, 대부분 CSS를 사용하였습니다.
 
 # URL
-https://kimhsr.github.io/khs-portfolio
+https://khs-portfolio.web.app
 
 # Tech stack
 React.js, CSS
