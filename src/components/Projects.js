@@ -10,6 +10,57 @@ function Projects() {
             <div className="projectsText">PROJECTS</div>
           </div>
           <div className="projectsContainer">
+            <div className="projectsContent">포트폴리오 웹사이트</div>
+            <div className="projectsDate">2022.12 (1人 개인 프로젝트)</div>
+            <div className="content">
+              <img
+                alt="portfolio"
+                src={`${process.env.PUBLIC_URL}/img/portfolio.png`}
+                className="projectsImgNet"
+              />
+              <div className="contentMainBack">
+                <div className="contentMain">
+                  <b>포트폴리오 용도로 제작한 웹사이트</b>
+                  입니다.
+                  <br />
+                  React를 사용하였으며, 대부분 CSS를 사용하였습니다.
+                  <br />
+                  <br />
+                  <a
+                    href="https://github.com/kimhsr/khs-portfolio"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <div className="contentButton">자세히 보기</div>
+                  </a>
+                </div>
+                <div className="projectsDescription">
+                  <div className="projectsDeTitle">✔ 주요 기능</div>
+                  <div className="projectsDeContent">
+                    간단한 자기소개, 인적 사항, 기술 스택,
+                    <br /> GitHub 링크, 프로젝트 경험
+                  </div>
+                </div>
+                <div className="projectsDescription">
+                  <div className="projectsDeTitle">✔ URL</div>
+                  <a
+                    href="https://kimhsr.github.io/khs-portfolio"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <div className="projectsDeContent">
+                      kimhsr.github.io/khs-portfolio
+                    </div>
+                  </a>
+                </div>
+                <div className="projectsDescription">
+                  <div className="projectsDeTitle">✔ SKILLS</div>
+                  <div className="projectsDeContent">React.js, CSS</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="projectsContainer">
             <div className="projectsContent">넷플릭스 클론 웹사이트</div>
             <div className="projectsDate">
               2022.11 ~ 2022.12 (1人 개인 프로젝트)
@@ -22,7 +73,7 @@ function Projects() {
               />
               <div className="contentMainBack">
                 <div className="contentMain">
-                  <b>포트폴리오용으로 제작된 NETFLIX 클론 코딩 프로젝트</b>
+                  <b>React의 학습을 위해 NETFLIX를 클론 코딩 한 웹사이트</b>
                   입니다.
                   <br />
                   React를 사용하였으며, 현재는 영화들의 간단한 정보만을
