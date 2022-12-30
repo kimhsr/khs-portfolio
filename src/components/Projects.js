@@ -44,12 +44,12 @@ function Projects() {
                 <div className="projectsDescription">
                   <div className="projectsDeTitle">✔ URL</div>
                   <a
-                    href="https://kimhsr.github.io/khs-portfolio"
+                    href="https://khs-portfolio.web.app/"
                     target="_blank"
                     rel="noreferrer"
                   >
                     <div className="projectsDeContent">
-                      kimhsr.github.io/khs-portfolio
+                      khs-portfolio.web.app
                     </div>
                   </a>
                 </div>
