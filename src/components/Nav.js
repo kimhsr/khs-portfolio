@@ -60,16 +60,16 @@ function Nav() {
                 </li>
               );
             })} */}
-            <Link to="aboutScroll" spy={true} smooth={true} offset={-75}>
+            <Link to="aboutScroll" spy={true} smooth={true} offset={-70}>
               <div className="links">About me</div>
             </Link>
-            <Link to="skillsScroll" spy={true} smooth={true} offset={-75}>
+            <Link to="skillsScroll" spy={true} smooth={true} offset={-70}>
               <div className="links">Skills</div>
             </Link>
-            <Link to="archivingScroll" spy={true} smooth={true} offset={-75}>
+            <Link to="archivingScroll" spy={true} smooth={true} offset={-70}>
               <div className="links">Archiving</div>
             </Link>
-            <Link to="projectsScroll" spy={true} smooth={true} offset={-75}>
+            <Link to="projectsScroll" spy={true} smooth={true} offset={-70}>
               <div className="links">Projects</div>
             </Link>
           </ul>

@@ -13,35 +13,6 @@ ul {
   width: 100%;
 }
 
-.nav__white {
-  background-color: #fff;
-}
-
-.nav__black {
-  color: #5d4e44 !important;
-}
-
-.nav__black:hover {
-  color: #f4623a !important;
-}
-
-.nav__white {
-  background-color: #fff;
-}
-
-.nav__black {
-  color: #5d4e44 !important;
-}
-
-.nav__black:hover {
-  color: #f4623a !important;
-}
-
-.nav {
-  z-index: 1000;
-  width: 100%;
-}
-
 .nav__header {
   display: flex;
   align-items: center;
@@ -53,13 +24,13 @@ ul {
   display: inline-block;
   font-weight: 700;
   font-size: 1.5rem;
-  color: #5d4e44;
+  color: #444;
   line-height: 2rem;
   cursor: pointer;
 }
 
 .nav__logo:hover {
-  color: #f4623a;
+  color: #4e61c0;
 }
 .nav__toggle {
   font-size: 1.5rem;
@@ -74,15 +45,14 @@ ul {
 }
 
 .links {
-  color: #5d4e44;
+  color: #444;
   font-size: 1rem;
   font-family: "SpoqaHanSansNeo-Bold";
   display: block;
   padding: 0.3rem 1rem;
-  transition: var(--transition);
 }
 .links:hover {
-  color: #f4623a;
+  color: #4e61c0;
 }
 .links__container {
   height: 0;

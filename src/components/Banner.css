@@ -1,5 +1,5 @@
 .bannerBackground {
-  background: linear-gradient(#857061, #5d4e44);
+  background-image: linear-gradient(to bottom, #499add, #4e61c0);
   width: 100%;
   padding: 4rem 0rem;
 }
@@ -28,7 +28,7 @@
   width: 3.25rem;
   margin: 1.5rem auto;
   border: none;
-  border-top: 0.2rem solid #f4623a;
+  border-top: 0.2rem solid #444;
 }
 
 .bannerTextBottom {
@@ -45,8 +45,8 @@
   margin-top: 30px;
   padding: 1rem 2rem;
   border: none;
-  border-radius: 10rem;
-  background-color: #f4623a;
+  border-radius: 10px;
+  background-color: #444;
   text-decoration: none;
   color: #fff;
   line-height: 1.5;
@@ -55,7 +55,7 @@
 }
 
 .bannerButton:hover {
-  background-color: #f24516;
+  background-color: #05112a;
 }
 
 @media screen and (max-width: 992px) {
